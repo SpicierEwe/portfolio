@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "./completed.module.css";
 import store from "../../../providers/store";
-import { BsPlayCircle, BsPlayCircleFill } from "react-icons/lib/Bs";
+import { BsPlayCircle, BsPlayCircleFill } from "react-icons/lib//Bs";
 import { IoLogoGooglePlaystore } from "react-icons/io";
 import { useState } from "react";
 import ProjectCategoryWidget from "../custom_widgets/project_category_widget/project_category_widget";
