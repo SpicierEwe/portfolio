@@ -1,0 +1,27 @@
+.header {
+  /* background-color: orange; */
+  text-align: center;
+}
+
+.category {
+  font-family: "Lato";
+  color: black;
+  border-radius: 1em;
+  background-color: #dee4e4;
+  padding: 0.5em 4em;
+  display: inline-block;
+  margin-bottom: 2em;
+
+  border: 0.21em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.grid_container {
+  display: grid;
+}
+
+..grid-container {
+  display: inline-grid;
+}

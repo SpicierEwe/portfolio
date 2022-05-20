@@ -1,0 +1,10 @@
+.seaction {
+}
+
+.card {
+  background-color: red;
+  /* font-size: 4rem; */
+
+  width: 70%;
+  margin: 0 auto;
+}

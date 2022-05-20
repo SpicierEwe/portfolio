@@ -1,0 +1,8 @@
+.section {
+  display: flex;
+}
+
+.card {
+  background-color: red;
+  /* font-size: 4rem; */
+}

@@ -1,0 +1,23 @@
+.background {
+  /* background-image: url("https://images.unsplash.com/photo-1632749161487-5f38ec89ebdf?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; */
+}
+
+.section {
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 5em;
+}
+
+.image {
+  width: 30%;
+  background-color: pink;
+
+  /* border-radius: 50%; */
+  clip-path: circle();
+}

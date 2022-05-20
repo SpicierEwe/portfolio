@@ -1,0 +1,10 @@
+.section {
+  /* border: 3px solid #ccc; */
+  /* background-color: pink; */
+
+  padding: 4rem;
+}
+
+.dev_name {
+  font-size: 2.3rem;
+}

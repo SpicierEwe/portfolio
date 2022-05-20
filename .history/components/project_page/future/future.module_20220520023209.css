@@ -1,0 +1,41 @@
+.background {
+}
+
+.section {
+  padding: 0 0 15rem 0;
+}
+.card {
+  padding: 0 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+  border: 0.3em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.left {
+  width: 30%;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  border: 0.3em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.right {
+  /* background-color: orangered; */
+
+  width: 70%;
+}

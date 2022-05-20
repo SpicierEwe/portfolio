@@ -1,0 +1,17 @@
+.nav {
+  background-color: pink;
+  display: flex;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+
+  /* flex-direction: column; */
+}
+
+.nav li {
+  list-style: none;
+  /* display: inline-block; */
+  /* margin-right: -4px; */
+}

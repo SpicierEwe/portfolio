@@ -1,0 +1,41 @@
+.header {
+  background-color: majenta;
+  border: 1px solid #223c63;
+  text-align: center;
+}
+
+.nav {
+  width: 70%;
+  border: 1px solid red;
+
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+.nav ul {
+  border: 1px solid #223c63;
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.nav li {
+  border: 1px solid #223c63;
+
+  /* margin: 0 1.5em; */
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  list-style: none;
+  border-bottom: 0.25em solid transparent;
+  padding-bottom: 0.3em;
+
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.nav li:hover {
+  /* background-color: red; */
+  border-bottom: 0.25em solid red;
+}

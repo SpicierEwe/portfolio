@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  max-width: 75%;
+  background-color: pink;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.current_project_info {
+  width: 50%;
+}
+.current_project_info h3 {
+  background-color: aqua;
+
+  font-size: 1.5rem;
+}
+
+.current_project_info p {
+  /* background-color: aqua; */
+  font-size: 1rem;
+  font-family: "Lato";
+}
+
+.current_project_logo {
+}

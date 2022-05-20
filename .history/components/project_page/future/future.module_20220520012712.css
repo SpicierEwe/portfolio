@@ -1,0 +1,19 @@
+.background {
+}
+
+.section {
+}
+.card {
+}
+.image_container {
+  height: 50%;
+  width: 50%;
+}
+/* .image {
+
+  width: 50%;
+  border: 0.3em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+} */

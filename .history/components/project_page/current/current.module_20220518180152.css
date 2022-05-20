@@ -1,0 +1,7 @@
+.card {
+  background-color: red;
+  font-size: 4rem;
+  /* z-index: 2; */
+  width: 70%;
+  margin: 0 auto;
+}

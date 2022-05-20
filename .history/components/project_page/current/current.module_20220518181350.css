@@ -1,0 +1,16 @@
+.section {
+  display: flex;
+  max-width: 75%;
+  background-color: pink;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.current_project_info {
+  background-color: aqua;
+  /* font-size: 4rem; */
+}
+
+.current_project_logo {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/se-portfolio-db.appspot.com/o/prophetName.png?alt=media&token=35be865e-5509-475a-8b13-8abc0db164a1");
+}

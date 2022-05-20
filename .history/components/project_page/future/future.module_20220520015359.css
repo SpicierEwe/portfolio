@@ -1,0 +1,29 @@
+.background {
+}
+
+.section {
+}
+.card {
+  width: 70%;
+  margin: 0 auto;
+  /* display: flex; */
+  justify-content: space-around;
+}
+.left {
+  height: 15rem;
+  width: 15rem;
+  background-color: red;
+  shape-outside: circle(50% at 50% 50%);
+}
+/* .image {
+
+  width: 50%;
+  border: 0.3em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+} */
+
+.right {
+  width: 50%;
+}

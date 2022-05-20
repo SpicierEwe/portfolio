@@ -1,0 +1,43 @@
+.section {
+  display: flex;
+  max-width: 75%;
+  background-color: pink;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  /*  */
+
+  border: 1px solid black;
+  padding-bottom: 5%;
+}
+/* here is the clip react  */
+.current_project_card {
+  clip-path: polygon(100% 0, 81% 100%, 0 100%, 0 0);
+  background-color: purple;
+  padding: 2em 2.5em;
+  width: 70%;
+}
+
+/* left */
+.left {
+  background-color: burlywood;
+  width: 85%;
+}
+.current_project_card h3 {
+  background-color: aqua;
+
+  font-size: 1.5rem;
+}
+
+.current_project_card p {
+  /* background-color: aqua; */
+  font-size: 1rem;
+  font-family: "Lato";
+}
+
+.current_project_logo {
+}
+
+/* 
+
+*/

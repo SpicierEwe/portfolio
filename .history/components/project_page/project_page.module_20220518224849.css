@@ -1,0 +1,30 @@
+.projects_bg {
+  /* background-image: url("/projects_bg.jpg"); */
+  background-image: url("https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/fc/3043624-inline-i-5-25-ideas-shaping-the-future-of-design.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section {
+  /* border-top: 3px solid #223c63; */
+  /* height: 100vh; */
+  padding: 3em 3em 3em 3em;
+  /* margin-top: 2em; */
+}
+
+.title {
+  font-size: 2.3rem;
+  font-family: "Rubik";
+}
+.dis {
+  /* color: #fdf2e9; */
+  font-size: 1.1rem;
+  font-family: "Rubik";
+  line-height: 1.6;
+}
+.sized_box {
+  height: 3rem;
+  color: transparent;
+}

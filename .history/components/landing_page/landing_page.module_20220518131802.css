@@ -1,0 +1,36 @@
+.section {
+  /* border: 3px solid #ccc; */
+  /* background-color: pink; */
+
+  padding: 4rem;
+}
+
+.dev_name {
+  font-size: 2.3rem;
+}
+
+.dev_info {
+  /* font-size: 04rem; */
+  font-family: "", sans-serif;
+  font-weight: bolder;
+}
+
+.btns_container {
+}
+
+.btn_contact {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 0.1em;
+  padding: 0.5em;
+  font-size: 01rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn_projects {
+  style: none;
+}

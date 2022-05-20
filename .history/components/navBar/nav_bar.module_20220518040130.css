@@ -1,0 +1,19 @@
+.nav {
+  background-color: pink;
+  display: flex;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+
+  /* flex-direction: column; */
+}
+
+.nav li {
+  text-align: center;
+  list-style: none;
+  /* display: inline-block; */
+  /* margin-right: -4px; */
+}

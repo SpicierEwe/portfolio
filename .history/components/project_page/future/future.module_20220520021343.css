@@ -1,0 +1,37 @@
+.background {
+}
+
+.section {
+  padding: 0 0 15rem 0;
+}
+.card {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+  border: 0.3em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.left {
+  height: 15rem;
+  width: 15rem;
+  background-color: pink;
+  shape-outside: circle(50%);
+  clip-path: circle();
+  position: relative;
+}
+.image {
+  /* width: 100%; */
+  align-content: center;
+  /* height: 100%; */
+  width: 100%;
+}
+
+.right {
+  /* background-color: orangered; */
+
+  width: 70%;
+}

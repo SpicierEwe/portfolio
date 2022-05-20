@@ -1,0 +1,80 @@
+.section {
+  display: flex;
+  max-width: 75%;
+  /* background-color: pink; */
+  background-color: #faf1e6;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+/* 
+left
+here is the clip react
+ 
+ */
+.left {
+  clip-path: polygon(100% 0, 81% 100%, 0 100%, 0 0);
+  /* background-color: purple; */
+  color: #faf1e6;
+  background-color: teal;
+  padding: 2em 2em 5em 2.5em;
+  width: 70%;
+}
+.current_project_info_container {
+  /* background-color: burlywood; */
+  width: 85%;
+}
+.current_project_info_container h3 {
+  /* background-color: aqua; */
+  /* padding-bottom: 1em; */
+  font-size: 1.5rem;
+}
+
+.current_project_info_container p {
+  /* background-color: aqua; */
+  font-size: 1rem;
+  font-family: "Lato";
+}
+
+/* progrees bar styles */
+.progressBar {
+  border-radius: 3rem;
+  margin-top: 2.5em;
+  width: 25%;
+  background-color: white;
+  height: 10%;
+  overflow: hidden;
+  border: 1.65px solid #faf1e6;
+}
+.progress_tracker {
+  background-color: green;
+  height: 100%;
+  width: 50%;
+}
+
+.progress_bar_container {
+  display: flex;
+}
+
+.proggress_percentage_flex {
+  display: flex;
+}
+
+.status_info_box {
+}
+
+/* ******************
+right 
+******************************* */
+
+.current_project_logo {
+}
+
+/* 
+
+*/
+
+/* 920px breakpint */

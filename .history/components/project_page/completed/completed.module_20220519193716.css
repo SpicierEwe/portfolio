@@ -1,0 +1,118 @@
+.header {
+  /* background-color: orange; */
+  text-align: center;
+}
+
+.category {
+  font-family: "Lato";
+  color: black;
+  border-radius: 1em;
+  background-color: #dee4e4;
+  padding: 0.5em 4em;
+  display: inline-block;
+  margin-bottom: 2em;
+
+  border: 0.21em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.grid_container {
+  justify-content: center;
+  /* align-items: center; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* background-color: #2196f3; */
+  /* padding: 1em 3em; */
+  /* 
+  
+  */
+  width: 85%;
+  margin: 0 auto;
+  /* 
+  
+  */
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+
+  /* border: 0.21em outset #c0c0c0; */
+}
+.grid_item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 0.3em outset #c0c0c0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/*  yt videio iframe */
+.yt_video {
+  max-width: 100%;
+  padding: 30%;
+
+  position: relative;
+}
+
+/* 
+=============================================
+*/
+
+.play_icon_overlay {
+  background: white;
+  opacity: 0.55;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.play_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* max-width: 100%; */
+}
+
+/* 
+=============================================
+*/
+.yt_video img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30%;
+  /* padding: 0; */
+}
+
+.yt_video iframe {
+  width: 100%;
+}
+
+.project_description_box {
+  padding: 0 1.5em;
+  position: relative;
+}
+.project_description_box h2 {
+  opacity: 0.8;
+  font-size: 1.1rem;
+  font-family: "Poppins";
+
+  font-weight: semi-bold;
+}
+
+.more_decription_btn {
+  background-color: orange;
+}
+
+/* sized box  */
+.sized_box {
+  height: 5rem;
+}

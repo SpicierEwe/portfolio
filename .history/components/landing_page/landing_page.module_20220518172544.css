@@ -1,0 +1,66 @@
+.section {
+  /* border: 3px solid #ccc; */
+  /* background-color: pink; */
+
+  /* background-image: url("https://images.unsplash.com/photo-1651527567557-769ea053b0ab?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332"); */
+
+  background-image: url("/landing_page_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+  padding-top: 1.5em;
+}
+
+.dev_intro_container {
+  padding: 0 4em 7em 4em;
+}
+
+.dev_name {
+  font-size: 2.15rem;
+  font-family: "Poppins";
+}
+
+.dev_info {
+  /* font-size: 04rem; */
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  opacity: 0.65;
+}
+
+.btn {
+  /* background-color: #f5f5f5; */
+  border: 1px solid #ccc;
+  border-radius: 0.1em;
+  padding: 0.5em;
+  font-size: 01rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+}
+
+.btns_container {
+  padding: 1.5em 0;
+}
+
+.btn_contact {
+  margin-right: 1em;
+}
+
+.btn_projects {
+  background-color: transparent;
+  border: none;
+}
+
+.btn_contact:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+/* sized box at the bottom */
+
+.sized_box {
+  height: 4em;
+  width: 100%;
+  background-color: #223c63;
+}

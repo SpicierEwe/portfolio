@@ -1,0 +1,37 @@
+.header {
+  background-color: majenta;
+}
+
+.nav {
+  /* max-width: 100%; */
+  background-color: red;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.nav li {
+  /* margin: 0 1.5em; */
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  list-style: none;
+  border-bottom: 0.25em solid transparent;
+  padding-bottom: 0.3em;
+
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+}
+
+.nav li:hover {
+  /* background-color: red; */
+  border-bottom: 0.25em solid red;
+}

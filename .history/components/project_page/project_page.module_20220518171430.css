@@ -1,0 +1,6 @@
+.section {
+  height: 100%;
+  padding: 3em 3em 5em 3em;
+
+  background-image: url("/projects_bg.jpg");
+}
