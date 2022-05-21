@@ -1,0 +1,25 @@
+.outer_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  background-color: #e67112;
+
+  box-shadow: 3px inset grey;
+  height: 25rem;
+  clip-path: circle();
+}
+
+.inner_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  background-color: pink;
+  height: 15rem;
+  clip-path: circle();
+}

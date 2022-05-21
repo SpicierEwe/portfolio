@@ -1,0 +1,28 @@
+.outer_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 100%;
+  background-color: #e67112;
+  height: 25em;
+  /* clip-path: circle(); */
+
+  border: 3em outset #c0c0c0;
+  box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.inner_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  background-color: pink;
+  height: 15rem;
+  clip-path: circle();
+}

@@ -1,0 +1,92 @@
+.header {
+  background-color: majenta;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* background-color: pink; */
+}
+
+/* LOGO STYLE IS HERE */
+.left {
+  width: 10%;
+}
+.left img {
+  /* background-color: red; */
+  width: 100%;
+}
+
+/* THERE ARE THE RIGHT SIDE NAC BAR ITEMS */
+.right {
+  width: 90%;
+}
+
+/* 
+***************************************************************
+ this the the menu icon ddisplayed for small devices
+  */
+.right nav {
+  display: none;
+}
+
+/* \\
+
+
+
+*/
+.nav_corner_flex {
+  /* width: 95%; */
+  /* margin: 0 auto; */
+  padding: 0em 3em 0.1em 0;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* background-color: orange; */
+}
+.nav {
+  /* border: 1px solid red; */
+  display: flex;
+  /* padding: 2.9em 0 0.1em 0; */
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.nav li {
+  /* background-color: red; */
+
+  margin: 0 1.5em;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  list-style: none;
+  border-bottom: 0.25em solid #d8d4d1;
+
+  padding-bottom: 0.3em;
+
+  backface-visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav li:hover {
+  /* background-color: red; */
+  border-bottom: 0.25em solid red;
+}
+
+/* 
+MEDIA QUERY  *************************************************************************************
+ */
+
+/* @media (max-width: 625px) {
+  .nav_corner_flex {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+  .left img {
+    width: 100%;
+  }
+} */

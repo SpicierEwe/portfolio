@@ -1,0 +1,37 @@
+.outer_circle {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  /* left: 105.5%; */
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 25em;
+  background-color: #e67112;
+  height: 25em;
+  /* clip-path: circle(); */
+
+  /* border: 0.21em outset #c0c0c0;
+  box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); */
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inner_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 19rem;
+  background-color: #d8d4d1;
+  height: 19rem;
+  clip-path: circle();
+}
+
+.inner_circle img {
+  height: 100%;
+  width: 100%;
+}

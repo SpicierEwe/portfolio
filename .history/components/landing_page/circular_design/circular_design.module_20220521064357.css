@@ -1,0 +1,6 @@
+.outer_circle {
+  width: 100%;
+  background-color: red;
+  height: 25rem;
+  clip-path: circle();
+}

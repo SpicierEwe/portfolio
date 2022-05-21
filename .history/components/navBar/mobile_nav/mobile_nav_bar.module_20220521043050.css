@@ -1,0 +1,44 @@
+/* 
+***************************************************************
+***************************************************************
+
+ this the the menu icon ddisplayed for small devices START
+
+***************************************************************
+***************************************************************
+  */
+.menu_close_icon {
+  background-color: aqua;
+}
+.nav {
+  background-color: red;
+  /* display: none; */
+}
+.menu_overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /* overflow-y: hidden; */
+  z-index: 2;
+}
+
+.menu_close_icon {
+  /* width: 100%; */
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  justify-content: end;
+  /* background-color: red; */
+}
+/* 
+  ***************************************************************
+  ***************************************************************
+  
+   this the the menu icon ddisplayed for small devices END
+  
+  ***************************************************************
+  ***************************************************************
+    */

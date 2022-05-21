@@ -1,0 +1,96 @@
+/* 
+********* COLORS *********
+
+/* main color = #d8d4d1 */
+
+/* color =  #ADA5A0  *
+
+
+**************************************************
+
+
+/
+
+*/
+.section {
+  height: 100vh;
+  max-height: -webkit-fill-available;
+
+  /* padding-top: 1.5em; */
+}
+
+.flex_content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5.1em 0 7em 7em;
+}
+.left {
+  /* background-color: pink; */
+}
+.right {
+  /* background-color: white; */
+  width: 50%;
+  position: relative;
+}
+
+/* 
+
+*/
+
+.dev_intro_container {
+  /* padding: 5.1em 4em 7em 4em; */
+}
+
+.dev_name {
+  font-size: 2.15rem;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.dev_info {
+  /* font-size: 04rem; */
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  opacity: 0.65;
+}
+
+.btn {
+  /* background-color: #f5f5f5; */
+  border: 1px solid #ccc;
+  border-radius: 0.1em;
+  padding: 0.5em;
+  font-size: 01rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+}
+
+.btns_container {
+  padding: 1.5em 0;
+}
+
+.btn_contact {
+  margin-right: 1em;
+}
+
+.btn_projects {
+  background-color: transparent;
+  border: none;
+}
+
+.btn_contact:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+/* sized box at the bottom */
+
+.sized_box {
+  height: 4em;
+  width: 100%;
+  background-color: #223c63;
+
+  /* background: rgb(2, 0, 36); */
+}

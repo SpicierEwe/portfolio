@@ -1,0 +1,60 @@
+/* 
+***************************************************************
+***************************************************************
+
+ this the the menu icon ddisplayed for small devices START
+
+***************************************************************
+***************************************************************
+  */
+.menu_overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  /* overflow-y: hidden; */
+  z-index: 2;
+}
+.mobile_nav_container {
+  background-color: red;
+  position: relative;
+}
+
+.menu_close_icon {
+  background-color: aqua;
+}
+.nav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+
+  /* background-color: red; */
+  /* display: none; */
+}
+
+.menu_close_icon {
+  /* width: 100%; */
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  justify-content: end;
+  /* background-color: red; */
+}
+
+.mobile_nav li {
+  list-style: none;
+}
+/* 
+  ***************************************************************
+  ***************************************************************
+  
+   this the the menu icon ddisplayed for small devices END
+  
+  ***************************************************************
+  ***************************************************************
+    */
