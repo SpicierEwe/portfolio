@@ -1,0 +1,55 @@
+.projects_bg {
+  /* background-image: url("/projects_bg.jpg"); */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 2.3rem;
+  font-family: "Rubik";
+}
+.dis {
+  /* color: #fdf2e9; */
+  font-size: 1.1rem;
+  font-family: "Rubik";
+  line-height: 1.6;
+  /* font-weight: 500; */
+}
+.sized_box {
+  height: 0.3rem;
+  background-color: whitesmoke;
+}
+
+/* box design no the left */
+
+.content_flex {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.left {
+  width: 50%;
+
+  border: 1px solid red;
+  position: relative;
+  background-color: purple;
+}
+
+.outer_box_design {
+  background-color: red;
+}
+.inner_box_design {
+}
+
+.right {
+  background-color: purple;
+}
+.section_project_intro_text_box {
+}

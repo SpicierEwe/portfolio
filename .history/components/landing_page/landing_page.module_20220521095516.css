@@ -1,0 +1,138 @@
+/* 
+********* COLORS *********
+
+/* main color = #d8d4d1 */
+
+/* color =  #ADA5A0  *
+
+
+**************************************************
+
+
+/
+
+*/
+.section {
+  min-height: 100vh;
+  max-height: -webkit-fill-available;
+  padding-top: 5em;
+
+  /* padding-top: 1.5em; */
+}
+
+.flex_content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5.1em 3em 7em 7em;
+}
+.left {
+  /* background-color: pink; */
+  /* width: 35%; */
+}
+.right {
+  /* background-color: aqua; */
+  width: 50%;
+  position: relative;
+}
+
+/* 
+
+*/
+.dev_intro_container {
+  /* padding-left: 2.5em; */
+  /* padding-left: 5%; */
+}
+.dev_name {
+  font-size: 2.5rem;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "test3";
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  /* text-transform: capitalize; */
+}
+
+.dev_info {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  opacity: 0.65;
+}
+
+.btn {
+  /* background-color: #f5f5f5; */
+  border: 1px solid #ccc;
+  border-radius: 0.1em;
+  padding: 0.5em;
+  font-size: 01rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+}
+
+.btns_container {
+  padding: 1.5em 0;
+}
+
+.btn_contact {
+  font-size: 0.86em;
+  margin-right: 1em;
+  background-color: black;
+  border-radius: 1em;
+  padding: 0.75em 0.7em;
+  /* color: #d8d4d1; */
+  color: white;
+  transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+}
+
+.btn_projects {
+  background-color: transparent;
+  border: none;
+}
+
+.btn_contact:hover {
+  /* background-color: #f5f5f5; */
+  /* color: #000; */
+  transform: translateY(-5px);
+  /* box-shadow: 0 0 0.5em grey; */
+}
+/* .btn_contact:focus {
+  background-color: red;
+} */
+.btn_contact:active {
+  transform: translateY(0);
+}
+
+/* sized box at the bottom */
+
+.sized_box {
+  height: 4em;
+  width: 100%;
+  background-color: #223c63;
+
+  /* background: rgb(2, 0, 36); */
+}
+
+/* 
+MEDIA QUERIES
+*/
+
+@media (max-width: 840px) {
+  .flex_content {
+    padding: 5.1em 3em 7em 3.9em;
+  }
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .dev_name {
+    font-size: 2rem;
+  }
+}
