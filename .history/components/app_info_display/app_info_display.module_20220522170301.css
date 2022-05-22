@@ -1,0 +1,14 @@
+.background {
+  padding: 7em 0;
+}
+
+.main_container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.section_1_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
