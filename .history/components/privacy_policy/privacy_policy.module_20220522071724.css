@@ -1,0 +1,71 @@
+.background {
+  padding: 1em 0;
+}
+
+.app_name_container {
+  text-align: center;
+}
+.app_name {
+  display: inline-block;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.content_container {
+  /* background-color: aquamarine; */
+  width: 87%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  /* position: relative; */
+}
+.sub_title_container {
+  /* background-color: aqua; */
+  padding-left: 2.7em;
+  width: 100%;
+}
+.sub_title {
+  background-color: white;
+  /* background-color: pink; */
+  /* margin: 0 0 0 2.7em; */
+  margin: 0 0 0 0;
+  /* padding: 1em 1.5em 0.7em 1.5em; */
+  padding: 2% 3% 0 0;
+  display: inline-block;
+  text-align: center;
+
+  border-radius: 1em 1em 0 0;
+
+  border-top: 0.31em outset #c0c0c0;
+  border-left: 0.31em outset #c0c0c0;
+  border-right: 0.31em outset #c0c0c0;
+  box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    outset 5px 5px 8px rgba(0, 0, 0, 0.5); */
+}
+
+.policies_container {
+  padding: 3em;
+  background-color: white;
+
+  position: relative;
+
+  border: 0.5em outset #c0c0c0;
+  box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    outset 5px 5px 8px rgba(0, 0, 0, 0.5); */
+}
+
+.policy_title {
+  text-transform: capitalize;
+}
+
+.policy_description {
+  /* font-family: "Open Sans"; */
+  text-align: justify;
+}
