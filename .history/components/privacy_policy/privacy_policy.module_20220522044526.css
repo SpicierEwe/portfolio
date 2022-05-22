@@ -1,0 +1,16 @@
+.app_name {
+  text-align: center;
+  /* background-color: red; */
+}
+
+.content_container {
+  background-color: aquamarine;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.policies_container {
+  background-color: #pink;
+  width: 80%;
+  margin: 0 auto;
+}

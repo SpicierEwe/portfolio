@@ -1,0 +1,44 @@
+.app_name {
+  text-align: center;
+  /* background-color: red; */
+}
+
+.content_container {
+  /* background-color: aquamarine; */
+  width: 87%;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.sub_title {
+  background-color: white;
+  margin: 0 0 0 2.7em;
+  padding: 1em 1.5em 0.7em 1.5em;
+  display: inline-block;
+  text-align: end;
+
+  border-top: 0.5em outset #c0c0c0;
+  border-left: 0.5em outset #c0c0c0;
+  border-right: 0.5em outset #c0c0c0;
+  box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    outset 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.policies_container {
+  padding: 3em;
+  background-color: white;
+
+  position: relative;
+
+  border: 0.5em outset #c0c0c0;
+  box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    outset 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
