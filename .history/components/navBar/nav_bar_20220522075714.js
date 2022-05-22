@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
-import Link from "next/link";
 import react, { useContext } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -27,10 +26,7 @@ function NavBar({
     <div>
       <header className={styles.header}>
         <div className={styles.left}>
-          {/* logo is here */}
-          <Link href={"/"}>
-            <img src={"/logo.svg"}></img>
-          </Link>
+          <img src={"/logo.svg"}></img>
         </div>
         <div className={styles.right}>
           {/* 

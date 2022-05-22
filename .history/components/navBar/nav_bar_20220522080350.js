@@ -28,7 +28,7 @@ function NavBar({
       <header className={styles.header}>
         <div className={styles.left}>
           {/* logo is here */}
-          <Link href={"/"}>
+          <Link href={"/"} style={{ cursor: "pointer" }}>
             <img src={"/logo.svg"}></img>
           </Link>
         </div>
