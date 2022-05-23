@@ -21,8 +21,8 @@ export default function AppPhotos({ photoLinks }) {
             return (
               <div key={index}>
                 <Image
-                  height={400}
-                  width={195}
+                  height={389}
+                  width={201}
                   src={photoLink}
                   className={styles.slide}
                 ></Image>

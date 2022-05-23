@@ -56,9 +56,7 @@
 .section_1_part_1 {
   /* min-width: 35%; */
   min-width: 23em;
-  /*  */
-  position: relative;
-  min-height: 13em;
+  /* min-height: 5em; */
 
   text-align: center;
 
@@ -66,6 +64,12 @@
 
   border-radius: 1.5em;
   border: 0.21em outset #c0c0c0;
+}
+.section_1_part_1 img {
+  position: absolute;
+  width: 5.5em;
+  /* height: 100%; */
+  object-fit: cover;
 }
 
 /* part 2 */

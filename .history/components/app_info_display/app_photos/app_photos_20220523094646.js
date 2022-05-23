@@ -20,12 +20,7 @@ export default function AppPhotos({ photoLinks }) {
           {photoLinks.map((photoLink, index) => {
             return (
               <div key={index}>
-                <Image
-                  height={400}
-                  width={195}
-                  src={photoLink}
-                  className={styles.slide}
-                ></Image>
+                <Image src={photoLink} className={styles.slide}></Image>
               </div>
             );
           })}

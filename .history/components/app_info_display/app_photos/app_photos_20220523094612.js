@@ -5,8 +5,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CircularDesign from "../../landing_page/circular_design/circular_design";
 import styles from "./app_photos.module.css";
-import Image from "next/image";
-
 export default function AppPhotos({ photoLinks }) {
   return (
     <div>
@@ -20,12 +18,7 @@ export default function AppPhotos({ photoLinks }) {
           {photoLinks.map((photoLink, index) => {
             return (
               <div key={index}>
-                <Image
-                  height={400}
-                  width={195}
-                  src={photoLink}
-                  className={styles.slide}
-                ></Image>
+                <Image src={photoLink} className={styles.slide}></Image>
               </div>
             );
           })}

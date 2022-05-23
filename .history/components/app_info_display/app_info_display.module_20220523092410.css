@@ -56,16 +56,21 @@
 .section_1_part_1 {
   /* min-width: 35%; */
   min-width: 23em;
-  /*  */
-  position: relative;
-  min-height: 13em;
-
+  padding: 5%;
   text-align: center;
-
+  /* todo */
+  /* background-color: #f6efcc; */
+  /* background-color: #d8d4d1; */
   align-items: center;
 
   border-radius: 1.5em;
   border: 0.21em outset #c0c0c0;
+}
+.section_1_part_1 img {
+  /* padding: 1em; */
+  width: 5.5em;
+  /* height: 100%; */
+  object-fit: cover;
 }
 
 /* part 2 */

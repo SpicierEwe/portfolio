@@ -24,11 +24,10 @@ export default function AppInfoDisplay({ appName }) {
                     className={styles.section_1_part_1}
                   >
                     <Image
-                      width={105}
-                      height={105}
+                      width={13}
+                      height={13}
                       alt="huhu"
                       src={AppsInformation[appName]["logo_link"]}
-                      className={styles.logo_img}
                     ></Image>
                   </div>
                   <div className={styles.section_1_part_2}>

@@ -4,7 +4,6 @@ import CustomTitleWidget from "../custom_widgets/custom_title/custom_title_widge
 import styles from "./app_info_display.module.css";
 import AppPhotos from "./app_photos/app_photos";
 import SubNav from "./sub_nav/sub_nav";
-import Image from "next/image";
 
 export default function AppInfoDisplay({ appName }) {
   console.log(appName);
@@ -24,11 +23,8 @@ export default function AppInfoDisplay({ appName }) {
                     className={styles.section_1_part_1}
                   >
                     <Image
-                      width={105}
-                      height={105}
                       alt="huhu"
                       src={AppsInformation[appName]["logo_link"]}
-                      className={styles.logo_img}
                     ></Image>
                   </div>
                   <div className={styles.section_1_part_2}>
