@@ -1,0 +1,20 @@
+.sub_nav_flex {
+  display: flex;
+  /* background-color: grey; */
+  list-style: none;
+  text-align: center;
+}
+
+.sub_nav_flex li {
+  font-family: "Open Sans";
+  font-weight: 700;
+  margin-right: 3em;
+  background-color: pink;
+  padding: 0.7em 0em;
+
+  border-bottom: 0.1em solid black;
+}
+
+.sub_nav_flex li:hover {
+  background-color: pink;
+}

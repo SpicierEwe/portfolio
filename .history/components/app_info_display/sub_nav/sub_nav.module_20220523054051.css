@@ -1,0 +1,13 @@
+.sub_nav_flex {
+  display: flex;
+  /* background-color: aqua; */
+  list-style: none;
+}
+
+.sub_nav_flex li {
+  margin: 0.5em;
+  /* background-color: pink; */
+  padding: 0.7em 1.3em;
+
+  border-bottom: 0.1em solid black;
+}

@@ -1,0 +1,10 @@
+.hidden {
+  display: none;
+  /* visibility: hidden; */
+  background-color: aqua;
+  width: 30%;
+}
+
+.app_photos_container {
+  width: 70%;
+}

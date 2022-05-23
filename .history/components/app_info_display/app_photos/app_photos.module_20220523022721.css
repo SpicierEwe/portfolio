@@ -1,0 +1,38 @@
+.hidden {
+  /* display: none; */
+  /* visibility: hidden; */
+
+  width: 13em;
+  margin-right: 3em;
+  border-radius: 1em;
+  transition: all 0.5s ease;
+  /* transform: translateX(-50%); */
+}
+
+.aa {
+  left: 21rem;
+}
+.move {
+  translate: translateX(0);
+}
+
+.app_photos_container {
+  display: flex;
+  overflow: hidden;
+
+  padding: 3em;
+  width: 85%;
+  background-color: teal;
+  margin: 0 auto;
+
+  border-radius: 1em;
+
+  border: 0.31em outset #c0c0c0;
+
+  /* box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); */
+
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    outset 5px 5px 8px rgba(0, 0, 0, 0.5); */
+}

@@ -1,0 +1,7 @@
+.sub_nav_flex {
+  display: flex;
+}
+
+.sub_nav {
+  list-style: none;
+}
