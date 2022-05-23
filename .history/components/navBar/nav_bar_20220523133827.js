@@ -63,15 +63,13 @@ function NavBar() {
             <ul className={styles.nav_corner_flex}>
               <div className={styles.list_item_style}>
                 <li>
-                  <Link scroll={false} href={"/#project_section"}>
-                    PROJECTS
-                  </Link>
+                  <a href={item1.link}>{item1.name}</a>
                 </li>
                 <li>
-                  <Link href={"#"}>ABOUT</Link>
+                  <a href={item2.link}>{item2.name}</a>
                 </li>
                 <li>
-                  <Link href={"#"}>CONTACT</Link>
+                  <a href={item3.link}>{item3.name}</a>
                 </li>
               </div>
               <div className={styles.list_item_style}>
@@ -107,18 +105,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-// {
-//   item1 = {
-//     name: "PROJECTS",
-//     link: "/",
-//   },
-//   item2 = {
-//     name: "ABOUT",
-//     link: "#",
-//   },
-//   item3 = {
-//     name: "CONTACT",
-//     link: "#",
-//   },
-// }

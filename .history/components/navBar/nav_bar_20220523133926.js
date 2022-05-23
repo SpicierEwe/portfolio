@@ -63,15 +63,13 @@ function NavBar() {
             <ul className={styles.nav_corner_flex}>
               <div className={styles.list_item_style}>
                 <li>
-                  <Link scroll={false} href={"/#project_section"}>
-                    PROJECTS
-                  </Link>
+                  <a href={"#"}>PROJECTS</a>
                 </li>
                 <li>
-                  <Link href={"#"}>ABOUT</Link>
+                  <a href={"#"}>{ABOUT}</a>
                 </li>
                 <li>
-                  <Link href={"#"}>CONTACT</Link>
+                  <a href={"#"}>{CONTACT}</a>
                 </li>
               </div>
               <div className={styles.list_item_style}>
