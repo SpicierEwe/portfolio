@@ -1,0 +1,13 @@
+.section {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins";
+  min-height: 100vh;
+}
+
+.right {
+  width: 70%;
+}

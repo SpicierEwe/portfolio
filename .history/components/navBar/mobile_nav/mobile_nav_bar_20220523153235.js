@@ -3,7 +3,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import styles from "../mobile_nav/mobile_nav_bar.module.css";
 import MobileNavBarContext from "../../../providers/context_provider";
-import Link from "next/link";
+import 
 
 function MobileNavBar(props) {
   const moblieNavBarCtx = useContext(MobileNavBarContext);
@@ -30,18 +30,10 @@ function MobileNavBar(props) {
 
         {/* here are th4r nav items */}
         <div className={styles.overlay_content}>
-          <Link
-            onClick={() => {
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
-            href={"/#project_section"}
-          >
-            PROJECTS
-          </Link>
-          <Link href="#">CONTACT</Link>
-          <Link href="#">ABOUTE</Link>
-          <Link href={"/under-development"}>RESOURCES</Link>
+          <Link href={"/#project_section"}>PROJECTS</Link>
+          <link href="#">CONTACT</link>
+          <link href="#">ABOUTE</link>
+          <link href="#">RESOURCES</link>
         </div>
       </div>
     </div>

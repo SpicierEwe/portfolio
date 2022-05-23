@@ -92,10 +92,10 @@ function NavBar() {
                 </li> */}
                 {/* theming */}
                 <li>
-                  <Link href={"/under-development"}>MORE</Link>
+                  <a href={"/under-development"}>MORE</a>
                 </li>
                 <li>
-                  <Link href={"/under-development"}>RESOURCES</Link>
+                  <a href={"/development"}>RESOURCES</a>
                 </li>
               </div>
             </ul>

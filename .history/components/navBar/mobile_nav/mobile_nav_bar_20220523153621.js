@@ -30,15 +30,11 @@ function MobileNavBar(props) {
 
         {/* here are th4r nav items */}
         <div className={styles.overlay_content}>
-          <Link
-            onClick={() => {
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
-            href={"/#project_section"}
-          >
-            PROJECTS
-          </Link>
+          <Link onClick={() => {
+        
+            moblieNavBarCtx.setOpenMObileNav(false);
+            document.body.style.overflowY = "visible";
+          }} href={"/#project_section"}>PROJECTS</Link>
           <Link href="#">CONTACT</Link>
           <Link href="#">ABOUTE</Link>
           <Link href={"/under-development"}>RESOURCES</Link>
@@ -49,3 +45,5 @@ function MobileNavBar(props) {
 }
 
 export default MobileNavBar;
+
+function () {}

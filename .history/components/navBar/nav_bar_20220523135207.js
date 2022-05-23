@@ -63,7 +63,7 @@ function NavBar() {
             <ul className={styles.nav_corner_flex}>
               <div className={styles.list_item_style}>
                 <li>
-                  <Link scroll={false} href={"/#project_section"}>
+                  <Link scroll={true} href={"/#project_section"}>
                     PROJECTS
                   </Link>
                 </li>
@@ -92,10 +92,10 @@ function NavBar() {
                 </li> */}
                 {/* theming */}
                 <li>
-                  <Link href={"/under-development"}>MORE</Link>
+                  <a href={"#"}>MORE</a>
                 </li>
                 <li>
-                  <Link href={"/under-development"}>RESOURCES</Link>
+                  <a href={"#"}>RESOURCES</a>
                 </li>
               </div>
             </ul>

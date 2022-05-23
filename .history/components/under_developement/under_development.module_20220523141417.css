@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins";
+  min-height: 100vh;
+}
+
+.right {
+  width: 50%;
+}
+
+.outer {
+  width: 25em;
+  height: 21em;
+  background-color: pink;
+}
+
+.innner {
+  width: 21em;
+  height: 18em;
+  background-color: aqua;
+}

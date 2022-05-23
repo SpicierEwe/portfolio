@@ -31,10 +31,7 @@ function MobileNavBar(props) {
         {/* here are th4r nav items */}
         <div className={styles.overlay_content}>
           <Link
-            onClick={() => {
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
+          onClick={() => {})}
             href={"/#project_section"}
           >
             PROJECTS
