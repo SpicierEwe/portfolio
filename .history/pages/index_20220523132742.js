@@ -2,6 +2,7 @@ import Head from "next/head";
 import LandingPage from "../components/landing_page/landing_page";
 import styles from "../styles/Home.module.css";
 import ProjectsPage from "../components/project_page/project_page";
+
 export default function Home(props) {
   //
 
