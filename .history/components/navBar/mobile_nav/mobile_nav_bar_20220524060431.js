@@ -30,30 +30,10 @@ function MobileNavBar(props) {
 
         {/* here are th4r nav items */}
         <div className={styles.overlay_content}>
-          <div
-            onClick={() => {
-              // console.log(moblieNavBarCtx.isMobileNavOpen);
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
-          >
-            <Link href={"/#project_section"}>PROJECTS</Link>
-          </div>
-          <div>
-            <Link href="#">CONTACT</Link>
-          </div>
-          <div>
-            <Link href="#">ABOUT</Link>
-          </div>
-          <div
-            onClick={() => {
-              // console.log(moblieNavBarCtx.isMobileNavOpen);
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
-          >
-            <Link href={"/under-development"}>RESOURCES</Link>
-          </div>
+          <Link href={"/#project_section"}>PROJECTS</Link>
+          <Link href="#">CONTACT</Link>
+          <Link href="#">ABOUTE</Link>
+          <Link href={"/under-development"}>RESOURCES</Link>
         </div>
       </div>
     </div>

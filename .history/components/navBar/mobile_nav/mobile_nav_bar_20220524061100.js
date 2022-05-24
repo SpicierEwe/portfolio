@@ -61,3 +61,9 @@ function MobileNavBar(props) {
 }
 
 export default MobileNavBar;
+
+function onClickHandler() {
+  console.log(moblieNavBarCtx.isMobileNavOpen);
+  moblieNavBarCtx.setOpenMObileNav(false);
+  document.body.style.overflowY = "visible";
+}

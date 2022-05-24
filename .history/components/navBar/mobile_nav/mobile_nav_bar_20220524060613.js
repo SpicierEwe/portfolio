@@ -32,7 +32,7 @@ function MobileNavBar(props) {
         <div className={styles.overlay_content}>
           <div
             onClick={() => {
-              // console.log(moblieNavBarCtx.isMobileNavOpen);
+              console.log(moblieNavBarCtx.isMobileNavOpen);
               moblieNavBarCtx.setOpenMObileNav(false);
               document.body.style.overflowY = "visible";
             }}
@@ -45,13 +45,7 @@ function MobileNavBar(props) {
           <div>
             <Link href="#">ABOUT</Link>
           </div>
-          <div
-            onClick={() => {
-              // console.log(moblieNavBarCtx.isMobileNavOpen);
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
-          >
+          <div>
             <Link href={"/under-development"}>RESOURCES</Link>
           </div>
         </div>

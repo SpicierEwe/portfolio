@@ -36,24 +36,23 @@ function MobileNavBar(props) {
               moblieNavBarCtx.setOpenMObileNav(false);
               document.body.style.overflowY = "visible";
             }}
-          >
-            <Link href={"/#project_section"}>PROJECTS</Link>
-          </div>
-          <div>
-            <Link href="#">CONTACT</Link>
-          </div>
-          <div>
-            <Link href="#">ABOUT</Link>
-          </div>
-          <div
-            onClick={() => {
-              // console.log(moblieNavBarCtx.isMobileNavOpen);
-              moblieNavBarCtx.setOpenMObileNav(false);
-              document.body.style.overflowY = "visible";
-            }}
-          >
-            <Link href={"/under-development"}>RESOURCES</Link>
-          </div>
+          ></div>
+          <Link href={"/#project_section"}>PROJECTS</Link>
+        </div>
+        <div>
+          <Link href="#">CONTACT</Link>
+        </div>
+        <div>
+          <Link href="#">ABOUT</Link>
+        </div>
+        <div
+          onClick={() => {
+            // console.log(moblieNavBarCtx.isMobileNavOpen);
+            moblieNavBarCtx.setOpenMObileNav(false);
+            document.body.style.overflowY = "visible";
+          }}
+        >
+          <Link href={"/under-development"}>RESOURCES</Link>
         </div>
       </div>
     </div>
