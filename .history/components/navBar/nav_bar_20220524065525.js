@@ -64,7 +64,11 @@ function NavBar() {
           <nav className={styles.desktop_nav}>
             <ul className={styles.nav_corner_flex}>
               <div className={styles.list_item_style}>
-                <li>
+                <li
+                  onClick={() => {
+                    router.replace("/", undefined, { shallow: true });
+                  }}
+                >
                   <Link href={"#project_section"}>PROJECTS</Link>
                 </li>
                 <li>

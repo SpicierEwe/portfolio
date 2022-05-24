@@ -65,7 +65,16 @@ function NavBar() {
             <ul className={styles.nav_corner_flex}>
               <div className={styles.list_item_style}>
                 <li>
-                  <Link href={"#project_section"}>PROJECTS</Link>
+                  <Link
+                    scroll={false}
+                    href={"/#project_section"}
+                    onEnded={() => {
+                      console.log("navigated sucessfully");
+                      router.replace(router.pathname);
+                    }}
+                  >
+                    PROJECTS
+                  </Link>
                 </li>
                 <li>
                   <Link href={"#"}>ABOUT</Link>

@@ -7,6 +7,7 @@ import Future from "./future/future";
 
 import { AiFillApple } from "react-icons/ai";
 import { MdOutlineDesktopMac, MdAndroid } from "react-icons/md";
+
 function ProjectsPage(props) {
   return (
     <div>

@@ -7,9 +7,15 @@ import Future from "./future/future";
 
 import { AiFillApple } from "react-icons/ai";
 import { MdOutlineDesktopMac, MdAndroid } from "react-icons/md";
+import { motion } from 'framer-motion';
+
 function ProjectsPage(props) {
   return (
-    <div>
+    <motion.div animate={{
+      scale: [1, 2, 2, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ['20%', '20%', '50%', '50%', '20%']
+    }}>
       <div id="project_section" className={styles.projects_bg}>
         <div className={styles.content_flex}>
           {/* 

@@ -7,9 +7,19 @@ import Future from "./future/future";
 
 import { AiFillApple } from "react-icons/ai";
 import { MdOutlineDesktopMac, MdAndroid } from "react-icons/md";
+import { motion } from "framer-motion";
 function ProjectsPage(props) {
   return (
     <div>
+      {/* 
+      
+      test
+      */}
+
+      {/* 
+      
+      test
+      */}
       <div id="project_section" className={styles.projects_bg}>
         <div className={styles.content_flex}>
           {/* 
