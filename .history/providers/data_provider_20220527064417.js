@@ -125,7 +125,7 @@ const projectsData = {
 
       background_color: "#f6efcc",
       registered_app_name: "al Qur'an",
-      release_date: "20 April, 2022",
+      release_date: "22 May, 2022",
 
       information: [
         {
