@@ -26,7 +26,7 @@ const projectsData = {
   //   ***********************************
   current_projects: [
     {
-      ongoing_status: "PUBLISHED ✅",
+      ongoing_status: "under review 👁️👁️",
       project_background_color: "#faf1e6",
       project_description:
         "ahadith Collection is a collection of the majority of the available Sahih Hadiths. The App will inshallah be available in (English/Urdu/Arabic). The entire hadith data has been taken only from the authetic sources ex-(www.sunnah.com) , more reference will inshallah be given inside the app under the Credits Seaction, the app will be inshallah be available very soon,  you can track the Progress below.",

@@ -26,7 +26,7 @@ const projectsData = {
   //   ***********************************
   current_projects: [
     {
-      ongoing_status: "PUBLISHED ✅",
+      ongoing_status: "under review 👁️👁️",
       project_background_color: "#faf1e6",
       project_description:
         "ahadith Collection is a collection of the majority of the available Sahih Hadiths. The App will inshallah be available in (English/Urdu/Arabic). The entire hadith data has been taken only from the authetic sources ex-(www.sunnah.com) , more reference will inshallah be given inside the app under the Credits Seaction, the app will be inshallah be available very soon,  you can track the Progress below.",
@@ -43,8 +43,7 @@ const projectsData = {
       video_link: "https://www.youtube.com/embed/Q-TElwt5ZQs?rel=0",
       logo_link:
         "https://firebasestorage.googleapis.com/v0/b/se-portfolio-db.appspot.com/o/prophetName.png?alt=media&token=35be865e-5509-475a-8b13-8abc0db164a1",
-      download_link:
-        "https://play.google.com/store/apps/details?id=com.spicierewe.ahadith_collection",
+      download_link: "#",
       background_color: "#faf1e6",
       registered_app_name: "ahadith Collection",
       release_date: "22 May, 2022",
@@ -97,20 +96,14 @@ const projectsData = {
         </h3>
       ),
       photo_links: [
-        "https://play-lh.googleusercontent.com/wwTcB1EIa68P28mjcNiBxoO3IT4n7svk_6pEUf6h5NR3lulpWwR0Y60JkIBTPcUGlo87=w1052-h592-rw",
-        "https://play-lh.googleusercontent.com/oVM5Byq5Ana0a_iuRlP1buNquG9tpyw65KKBxGl2wsMwe5ChunHkbHd6rlbj-nH2cg=w1052-h592-rw",
-
-        "https://play-lh.googleusercontent.com/gmptnsxADWQtQs0KNZKkoXrs6LqdNRnrAyV4LbUqbnXTyJqlCB5iaSdFiKIlZDAy-7fc=w1052-h592-rw",
-
-        "https://play-lh.googleusercontent.com/M6yhgh1lwiZDsLrgk_62X2lo9ww6SiIYppwOsGGZJx7sAWqgiYJ2k9SZgHL11_nm_yc=w1052-h592-rw",
-
-        "https://play-lh.googleusercontent.com/3Q3dnTk1JAeYA0iaFz0dXZlgVdPuasHZaFoXayKAWqK4UrLsHGhbzidYF6kTdio5XgI=w1052-h592-rw",
-
-        "https://play-lh.googleusercontent.com/cn-eIHpznqpOVVjqGhfMN3o7FvmN7JBVcAsizccjSqbqQnPfR6XgHHrkWNA3tpGcIGKL=w1052-h592-rw",
-
-        "https://play-lh.googleusercontent.com/oxRhMho9jsU1igYoZHY2bd2y5sc7rPI9iayF9O15-_mEQ37hMIl1-xsmkc7ihtuBVnk=w1052-h592-rw",
-
-        "https://play-lh.googleusercontent.com/AZmhH_vAfU_rtkKJz4bUrl83j-WBLTeexqR_j6nR7GC4J3m12Q09vbzWyGEgdBLxCPo=w1052-h592-rw",
+        "https://play-lh.googleusercontent.com/ELQ9LKn2Jo4LE57SYu68kbKzrRD_LHrs37zmj91wXiV8JJX7noC8JirIZnT48PiGbONg=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/S54MdAgecdgzYxGZ-sAEnBjrSza8VuV-ZxlVB3YHhn74Z0rZ1mCckf0YIvkwLszb9xcT=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/vceZrrCzCA11_yG2967JaCMbwjEWn7Blc8ahlOIum76-u_xg15S0684PJD_dMp9vY1w=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/aPg3vNVyktc13Ox8GSkygaT2nrbnBe9X61qpi7D2vkyDwANUt-tete5FY_TvFf4Jrk9B=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/uNL6P6dbjzkR7bgSS6Hh51lcIHA7dJtZEjLNid9KGljxyRQFMMpU1p8p4BukLKENHKg=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/MP8tNMuQt3xYiWY3qV953JqAhLBP7VueZ7IGbAACWoxWbddqG01nRItldeGRnX2clhiY=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/04kaTbaeoE6nH3y2xOfSNHY6lgWOQjCbuOuE-RCLri_Gk7RXvzSj0kcAX6LKqoJKwhg=w1440-h620-rw",
+        "https://play-lh.googleusercontent.com/ZkjfOERPviu2flrLUrY-DvJV52eMA2iOoF_ri8J-wzB9f5JnppzXdRoX1vc9caTohg=w1440-h620-rw",
       ],
     },
 
