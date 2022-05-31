@@ -65,7 +65,7 @@ const privacy_policies_data = {
   // ahadith Collection provacy policy
   "ahadith-Collection": {
     registered_app_name: "ahadith Collection",
-    last_updated_date: "31 May, 2022",
+    last_updated_date: "22 May, 2022",
     policies: [
       {
         title: "Requires Internet",
@@ -73,9 +73,9 @@ const privacy_policies_data = {
           "The App is Completely Offline but you require internet to contact us through contacting Portals.",
       },
       {
-        title: "Requires Location Permission",
+        title: "Requires Internet",
         description:
-          "The App requires location Permission in order to fetch salah times and qibla direction accoeding to you location.",
+          "The App is Completely Offline but you require internet to contact us through contacting Portals.",
       },
       {
         title: "Regarding your Private Information",

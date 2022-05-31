@@ -65,7 +65,7 @@ const privacy_policies_data = {
   // ahadith Collection provacy policy
   "ahadith-Collection": {
     registered_app_name: "ahadith Collection",
-    last_updated_date: "31 May, 2022",
+    last_updated_date: "22 May, 2022",
     policies: [
       {
         title: "Requires Internet",

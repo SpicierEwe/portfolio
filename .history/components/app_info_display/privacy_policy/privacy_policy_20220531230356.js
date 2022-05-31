@@ -65,7 +65,7 @@ const privacy_policies_data = {
   // ahadith Collection provacy policy
   "ahadith-Collection": {
     registered_app_name: "ahadith Collection",
-    last_updated_date: "31 May, 2022",
+    last_updated_date: "22 May, 2022",
     policies: [
       {
         title: "Requires Internet",
@@ -75,7 +75,7 @@ const privacy_policies_data = {
       {
         title: "Requires Location Permission",
         description:
-          "The App requires location Permission in order to fetch salah times and qibla direction accoeding to you location.",
+          "The App requires location Permission in order to fetch salah times for you current location and also for qibla direction accoeding to you location.",
       },
       {
         title: "Regarding your Private Information",
