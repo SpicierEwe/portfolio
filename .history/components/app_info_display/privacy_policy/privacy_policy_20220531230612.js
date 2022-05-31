@@ -65,14 +65,13 @@ const privacy_policies_data = {
   // ahadith Collection provacy policy
   "ahadith-Collection": {
     registered_app_name: "ahadith Collection",
-    last_updated_date: "22 May, 2022",
+    last_updated_date: "31 May, 2022",
     policies: [
       {
         title: "Requires Internet",
         description:
           "The App is Completely Offline but you require internet to contact us through contacting Portals.",
       },
-
       {
         title: "Regarding your Private Information",
         description:
@@ -94,7 +93,7 @@ const privacy_policies_data = {
   // al Qur'an privacy policy
   "al-Qur'an": {
     registered_app_name: "al Qur'an",
-    last_updated_date: "31 May, 2022",
+    last_updated_date: "22 May, 2022",
     policies: [
       {
         title: "Needed Microphone Access (OPTIONAL)",
@@ -105,11 +104,6 @@ const privacy_policies_data = {
         title: "Requires Internet",
         description:
           "The App is Completely Offline but the need of Internet is because of the audio files. Streaming audio files takes much less time and internet these days . I've kept the audio Playable only by Internet because it was impossible to supply them offline cause of Vast Majority of Reciter Choices. And you also need internet in order to download the audio files, and to be able to contact to us through contacting Poratal.",
-      },
-      {
-        title: "Requires Location Permission",
-        description:
-          "The App requires location Permission in order to fetch salah times and qibla direction accoeding to you location.",
       },
       {
         title: "Needed Access Storage",
