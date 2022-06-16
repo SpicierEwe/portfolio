@@ -54,7 +54,7 @@ export default function DisplayPrivacyPolicy({ appName }) {
   );
 }
 
-const validApps = ["ahadith-Collection", "al-Qur'an", "food-deals"];
+const validApps = ["ahadith-Collection", "al-Qur'an"];
 
 const privacy_policies_data = {
   // trust message
@@ -136,7 +136,6 @@ const privacy_policies_data = {
 
   // non islamic apps privacy policy
 
-  // food deals privacy policy
   "food-deals": {
     registered_app_name: "Food Deals",
     last_updated_date: "16 June, 2022",
@@ -155,12 +154,12 @@ const privacy_policies_data = {
       {
         title: "Regarding your Private Information",
         description:
-          "We do not Collect any of Your Data either knowingly or unknowingly. Your data is only yours so rest assured.",
+          "We Do not Collect Any of Your Data either knowingly or unknowingly, and why would we ? I haven't created this app to ruin myself On the Day of Judgement but rather to be close to my Lord The Most High (Allahuakabar) , May Allah (The Almighty) Forgive us all and admit us all to Jannatul Firdausi al aala.",
       },
       {
         title: "Changes To This Privacy Policy",
         description:
-          "This Privacy Policy is effective as of 16 June, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
+          "This Privacy Policy is effective as of 22 May, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
       },
       {
         title: "Contact Information",

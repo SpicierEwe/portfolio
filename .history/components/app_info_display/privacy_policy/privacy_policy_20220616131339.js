@@ -54,7 +54,7 @@ export default function DisplayPrivacyPolicy({ appName }) {
   );
 }
 
-const validApps = ["ahadith-Collection", "al-Qur'an", "food-deals"];
+const validApps = ["ahadith-Collection", "al-Qur'an"];
 
 const privacy_policies_data = {
   // trust message

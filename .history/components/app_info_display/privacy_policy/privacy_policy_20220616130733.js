@@ -54,7 +54,7 @@ export default function DisplayPrivacyPolicy({ appName }) {
   );
 }
 
-const validApps = ["ahadith-Collection", "al-Qur'an", "food-deals"];
+const validApps = ["ahadith-Collection", "al-Qur'an"];
 
 const privacy_policies_data = {
   // trust message
@@ -91,6 +91,8 @@ const privacy_policies_data = {
     ],
   },
 
+  //
+  //
   // al Qur'an privacy policy
   "al-Qur'an": {
     registered_app_name: "al Qur'an",
@@ -125,42 +127,6 @@ const privacy_policies_data = {
         title: "Changes To This Privacy Policy",
         description:
           "This Privacy Policy is effective as of 22 May, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
-      },
-      {
-        title: "Contact Information",
-        description:
-          "For any questions or concerns regarding the privacy policy, please send us an email to Contact Email Address dev.abeliever@gmail.com",
-      },
-    ],
-  },
-
-  // non islamic apps privacy policy
-
-  // food deals privacy policy
-  "food-deals": {
-    registered_app_name: "Food Deals",
-    last_updated_date: "16 June, 2022",
-    policies: [
-      {
-        title: "Requires Internet",
-        description:
-          "Requires internet inorder to display the respective websites and also for contact portal so that you can reach us.",
-      },
-      {
-        title: "Requires Location Permission",
-        description:
-          "'Requires location permissions inorder to show that the website can show you food places and food data nearest to you.",
-      },
-
-      {
-        title: "Regarding your Private Information",
-        description:
-          "We do not Collect any of Your Data either knowingly or unknowingly. Your data is only yours so rest assured.",
-      },
-      {
-        title: "Changes To This Privacy Policy",
-        description:
-          "This Privacy Policy is effective as of 16 June, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
       },
       {
         title: "Contact Information",

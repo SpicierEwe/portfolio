@@ -54,7 +54,7 @@ export default function DisplayPrivacyPolicy({ appName }) {
   );
 }
 
-const validApps = ["ahadith-Collection", "al-Qur'an", "food-deals"];
+const validApps = ["ahadith-Collection", "al-Qur'an"];
 
 const privacy_policies_data = {
   // trust message
@@ -136,7 +136,6 @@ const privacy_policies_data = {
 
   // non islamic apps privacy policy
 
-  // food deals privacy policy
   "food-deals": {
     registered_app_name: "Food Deals",
     last_updated_date: "16 June, 2022",

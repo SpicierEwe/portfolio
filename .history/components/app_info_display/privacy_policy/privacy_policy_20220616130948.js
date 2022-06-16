@@ -54,7 +54,7 @@ export default function DisplayPrivacyPolicy({ appName }) {
   );
 }
 
-const validApps = ["ahadith-Collection", "al-Qur'an", "food-deals"];
+const validApps = ["ahadith-Collection", "al-Qur'an"];
 
 const privacy_policies_data = {
   // trust message
@@ -136,7 +136,6 @@ const privacy_policies_data = {
 
   // non islamic apps privacy policy
 
-  // food deals privacy policy
   "food-deals": {
     registered_app_name: "Food Deals",
     last_updated_date: "16 June, 2022",
@@ -144,23 +143,27 @@ const privacy_policies_data = {
       {
         title: "Requires Internet",
         description:
-          "Requires internet inorder to display the respective websites and also for contact portal so that you can reach us.",
+          "The App is Completely Offline but the need of Internet is because of the audio files. Streaming audio files takes much less time and internet these days . I've kept the audio Playable only by Internet because it was impossible to supply them offline cause of Vast Majority of Reciter Choices. And you also need internet in order to download the audio files, and to be able to contact to us through contacting Poratal.",
       },
       {
         title: "Requires Location Permission",
         description:
-          "'Requires location permissions inorder to show that the website can show you food places and food data nearest to you.",
+          "The App requires location Permission in order to fetch salah times and qibla direction according to your location.",
       },
-
+      {
+        title: "Needed Access Storage",
+        description:
+          "This Qur'an app need to access storage in your device so that one of the features work properly. This is needed in order to you can downloading files of application needs from our server to your storage. So that the feature can accessed by offline. You must know, we not steal data from your storage to our server.",
+      },
       {
         title: "Regarding your Private Information",
         description:
-          "We do not Collect any of Your Data either knowingly or unknowingly. Your data is only yours so rest assured.",
+          "We Do not Collect Any of Your Data either knowingly or unknowingly, and why would we ? I haven't created this app to ruin myself On the Day of Judgement but rather to be close to my Lord The Most High (Allahuakabar) , May Allah (The Almighty) Forgive us all and admit us all to Jannatul Firdausi al aala.",
       },
       {
         title: "Changes To This Privacy Policy",
         description:
-          "This Privacy Policy is effective as of 16 June, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
+          "This Privacy Policy is effective as of 22 May, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
       },
       {
         title: "Contact Information",
