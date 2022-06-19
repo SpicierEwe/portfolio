@@ -10,6 +10,10 @@ export default function Home(props) {
       <Head>
         <title>abeliever</title>
         <meta name="description" content="SpicierEwe's Portfolio" />
+        <meta
+          name="google-site-verification"
+          content="RSZBBWk2ueUdhqlat4qVcXKz7MoOLjjQNYDKqyA4SCc"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -2,15 +2,18 @@ import Head from "next/head";
 import LandingPage from "../components/landing_page/landing_page";
 import styles from "../styles/Home.module.css";
 import ProjectsPage from "../components/project_page/project_page";
-import { getURL } from "next/dist/shared/lib/utils";
-
 export default function Home(props) {
-  console.log(props);
+  //
+
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>abeliever</title>
         <meta name="description" content="SpicierEwe's Portfolio" />
+        <meta
+          name="google-site-verification"
+          content="RSZBBWk2ueUdhqlat4qVcXKz7MoOLjjQNYDKqyA4SCc"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -22,13 +25,4 @@ export default function Home(props) {
       <footer className={styles.footer}></footer>
     </div>
   );
-}
-export async function getStaticProps(context) {
-  const url =
-    "https://se-portfolio-db-default-rtdb.firebaseio.com/my_projects.json";
-  const project_data = await fetch(url).then((response) => response.json());
-
-  return {
-    props: { project_data }, // will be passed to the page component as props
-  };
 }
