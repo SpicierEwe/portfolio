@@ -168,5 +168,37 @@ const privacy_policies_data = {
           "For any questions or concerns regarding the privacy policy, please send us an email to Contact Email Address dev.abeliever@gmail.com",
       },
     ],
+  }, // food deals privacy policy
+  "study-practice": {
+    registered_app_name: "Study Practice",
+    last_updated_date: "16 June, 2022",
+    policies: [
+      {
+        title: "Requires Internet",
+        description:
+          "The Data in this app comes from a back-end database so inorder to access the data you need a working internet connection.",
+      },
+      {
+        title: "REQUIRES PHONE NUMBER",
+        description:
+          "Currently the ( Sign in / Login ) can only be done through a phone number which makes your account more secure. So inorder to ( login / sign in ) you need a working phone number.",
+      },
+
+      {
+        title: "Regarding your Private Information",
+        description:
+          "Only the data you enter while making your account is collected ( for ex - Name / Birthday ) inorder to make your profile which only you can access whenever you want.",
+      },
+      {
+        title: "Changes To This Privacy Policy",
+        description:
+          "This Privacy Policy is effective as of 16 June, 2022 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you by placing a prominent notice on our website and also in the App..",
+      },
+      {
+        title: "Contact Information",
+        description:
+          "For any questions or concerns regarding the privacy policy, please send us an email to Contact Email Address dev.abeliever@gmail.com",
+      },
+    ],
   },
 };
